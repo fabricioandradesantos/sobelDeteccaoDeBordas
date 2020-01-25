@@ -69,21 +69,21 @@ public class Main2Activity extends AppCompatActivity {
             Mat gray = new Mat();
             Imgproc.cvtColor(blurredImage, gray,Imgproc.COLOR_RGB2GRAY);
 
-            //Calculating gradient in horizontal direction
+            
             Mat grad_x = new Mat();
             Imgproc.Sobel(gray, grad_x, CvType.CV_16S, 1, 0, 3, 1, 0);
 
-            //Calculating gradient in vertical direction
+            
             Mat grad_y = new Mat();
             Imgproc.Sobel(gray, grad_y, CvType.CV_16S, 0, 1, 3, 1, 0);
 
-            //Calculating absolute value of gradients in both the direction
+            
             Mat abs_grad_x = new Mat();
             Mat abs_grad_y = new Mat();
             Core.convertScaleAbs(grad_x, abs_grad_x);
             Core.convertScaleAbs(grad_y, abs_grad_y);
 
-            //Calculating the resultant gradient
+            
             Mat sobel = new Mat();
             Core.addWeighted(abs_grad_x, 0.5, abs_grad_y, 0.5, 1, sobel);
 
