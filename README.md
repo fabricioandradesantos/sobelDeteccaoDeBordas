@@ -7,7 +7,10 @@ Com isto consegue-se estimar a presença de uma transição claro-escuro e de qu
 
 [Wikipédia](https://pt.wikipedia.org/wiki/Filtro_Sobel)
 
-# Implementação baseada no livro: "OpenCV Android Programming By Example" de Amgad Muhammad
+### [Laplacian Edge Detection](https://github.com/fabriicioa/laplaceDeteccaoDeBordas)
+### [Canny edge detector](https://github.com/fabriicioa/cannyDeteccaoDeBordas)
+
+## Implementação baseada no livro: "OpenCV Android Programming By Example" de Amgad Muhammad
 
 ## Imagens do app
 <a href="url"><img src="https://github.com/fabriicioa/sobelDeteccaoDeBordas/blob/master/Arquivos/img3.png" align="left" height="480" width="260" ></a>
