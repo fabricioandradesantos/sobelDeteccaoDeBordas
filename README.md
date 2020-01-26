@@ -7,6 +7,8 @@ Com isto consegue-se estimar a presença de uma transição claro-escuro e de qu
 
 [Wikipédia](https://pt.wikipedia.org/wiki/Filtro_Sobel)
 
+### Biblioteca utilizada para o processamento digital de imagens [OpenCV](https://opencv.org/) (Versão 3.4.3)
+
 ### [Laplacian Edge Detection](https://github.com/fabriicioa/laplaceDeteccaoDeBordas)
 ### [Canny edge detector](https://github.com/fabriicioa/cannyDeteccaoDeBordas)
 
