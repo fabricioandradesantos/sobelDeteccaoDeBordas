@@ -1,12 +1,6 @@
 # Detecção de Borda (Operador Sobel)
 ## Edge Detection (Sobel Operator)
 
-O filtro Sobel é uma operação utilizada em processamento de imagem, aplicada sobretudo em algoritmos de detecção de contornos.
-O filtro Sobel calcula o gradiente da intensidade da imagem em cada ponto, dando a direção da maior variação de claro para escuro e a quantidade de variação nessa direção. Assim, obtém-se uma noção de como varia a luminosidade em cada ponto, de forma mais suave ou abrupta.
-Com isto consegue-se estimar a presença de uma transição claro-escuro e de qual a orientação desta. Como as variações claro-escuro intensas correspondem a fronteiras bem definidas entre objetos, consegue-se fazer a detecção de contornos.
-
-[Wikipédia](https://pt.wikipedia.org/wiki/Filtro_Sobel)
-
 ### Biblioteca utilizada para o processamento digital de imagens [OpenCV](https://opencv.org/) (Versão 3.4.3)
 
 ### [Laplacian Edge Detection](https://github.com/fabriicioa/laplaceDeteccaoDeBordas)
